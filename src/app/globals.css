@@ -51,14 +51,14 @@ body {
 
 @layer components {
   .question-card {
-    @apply flex flex-col justify-start bg-card-background shadow-lg rounded-xl p-8 hover:shadow-2xl transition-shadow duration-300 max-w-112.5 md:max-w-100 max-h-60 overflow-hidden;
+    @apply flex flex-col justify-start bg-card-background shadow-lg rounded-xl p-8 hover:shadow-2xl transition-shadow duration-300 max-w-112.5 md:max-w-100 h-64 overflow-hidden;
   }
 
   .question-card-title {
-    @apply text-card-title text-lg tracking-wider font-semibold;
+    @apply text-card-title text-2xl tracking-wider font-semibold;
   }
 
   .question-card-description {
-    @apply text-gray-300 text-sm line-clamp-5 mt-3 leading-5;
+    @apply text-gray-300 text-xl line-clamp-5 mt-4 font-semibold;
   }
 }
